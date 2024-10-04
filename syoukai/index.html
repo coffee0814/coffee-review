@@ -12,13 +12,13 @@
             margin: 0;
             padding: 0;
         }
-        .circle-image {
-            width: 200px;           /* 画像の幅 */
-            height: 200px;          /* 画像の高さ */
-            border-radius: 50%;     /* 丸くする */
-            justify-content: center;
-            object-fit: cover;      /* 画像が枠に収まるように調整 */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影を追加して立体感を出す */
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
             color: #333;
@@ -51,7 +51,7 @@
     <div class="container">
         <h1>自己紹介</h1>
         <!-- 画像を表示 -->
-        <img src="syoukai/EwWE7NTUcAMdphZ.jpg" alt="サンプル画像" class="circle-image">
+        <img src="syoukai/EwWE7NTUcAMdphZ.jpg" alt="サンプル画像" class="profile-picture">
         <p>こんにちは！私の名前はcoffee0814です。ウェブ開発とデザインが大好きで、趣味はプログラミング、読書、そして旅行です。</p>
         <p>現在は、フロントエンド開発に力を入れており、HTML、CSS、JavaScriptを使用して美しいウェブサイトを作成することが得意です。GitHubでは、これまでに取り組んできたプロジェクトやコードを公開していますので、ぜひチェックしてください。</p>
         <p>もし私の仕事に興味があれば、下記のソーシャルリンクからお気軽に連絡してください！</p>
